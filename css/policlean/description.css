@@ -1,0 +1,109 @@
+.description-bg {
+  background-color: var(--cor-3);
+  align-items: center;
+  justify-content: center;
+}
+
+.description-bg .container-cleaning {
+  max-width: 1200px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.description-bg .container-cleaning h2 {
+  color: var(--cor-8);
+  font-weight: bolder;
+  margin: 0 auto;
+}
+
+.description-bg .container-cleaning p {
+  color: var(--cor-b-2);
+  max-width: 95ch;
+  margin: 0 auto;
+}
+
+.description-bg .description-cleaning {
+  margin: 3rem auto;
+  padding: 2rem;
+  max-width: 1200px;
+  background-color: #b4dbec;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.description-bg .description-cleaning h2 {
+  color: var(--cor-8);
+  font-weight: bolder;
+  margin-bottom: 1rem;
+}
+
+.description-cleaning ul li {
+  color: var(--cor-7);
+  list-style: initial;
+  margin: 0.5rem;
+}
+
+.description-bg .description-glove-container {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1200px;
+}
+.description-glove-container .description-glove-image {
+  grid-column: 1;
+}
+
+.description-glove-container .description-glove-precaution {
+  grid-column: 2;
+}
+
+.description-glove-container .description-glove-precaution h2 {
+  color: var(--cor-8);
+  font-weight: bolder;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.description-glove-icons {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.description-glove-container .description-glove-precaution p {
+  color: var(--cor-b-1);
+  max-width: 60ch;
+}
+
+@media (max-width: 820px) {
+  .description-glove-container .description-glove-image {
+    display: none;
+  }
+
+  .description-glove-container .description-glove-precaution h2 {
+    margin-top: 0rem;
+  }
+
+  .description-bg .description-glove-container {
+    grid-template-columns: 1fr;
+    padding: 1rem 2rem 1rem 2rem;
+  }
+
+  .description-glove-container .description-glove-precaution {
+    grid-column: 1;
+  }
+}
+
+@media (max-width: 460px) {
+  .description-glove-icons {
+    display: none;
+  }
+
+  .description-glove-container .description-glove-precaution p {
+    margin-top: 0.5rem;
+  }
+}

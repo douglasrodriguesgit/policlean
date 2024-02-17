@@ -1,0 +1,225 @@
+.bg-use {
+  background-color: var(--cor-3);
+  padding: 2rem;
+  align-items: center;
+}
+
+.bg-use .use-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+}
+
+.bg-use .use-container h2 {
+  color: var(--cor-8);
+  font-weight: bolder;
+  margin: 0 auto;
+}
+.bg-use .use-mode {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bg-use .use-mode div {
+  width: 200px;
+  height: 100px;
+  text-align: center;
+  border-radius: 0.5rem;
+  background-color: var(--cor-7);
+  color: var(--cor-8);
+  font-weight: bolder;
+  margin: 2rem auto;
+  padding: 0.5rem;
+  padding: 0.5rem 0.5rem 2rem 0.5rem;
+  z-index: 9999;
+  position: relative;
+}
+
+.bg-use .use-mode div span {
+  margin-top: -20px;
+  padding-bottom: 0.5rem;
+  font: 500 2rem/1.5 "poppins", sans-serif;
+}
+
+.bg-use .use-mode div span::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 80px;
+  background-color: var(--cor-b-1);
+  position: absolute;
+  margin-left: 62px;
+  top: -13px;
+  z-index: -1;
+  border-radius: 50%;
+}
+
+.bg-use .use-mode div p {
+  max-width: 25ch;
+  color: var(--cor-b-1);
+  margin-top: 1rem;
+  align-items: center;
+  font: 400 0.875rem/0.975 "roboto", sans-serif;
+}
+
+.bg-use .use-border {
+  max-width: 1200px;
+  margin: 2rem auto;
+  border: solid 2px var(--cor-8);
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.container-info-dilution {
+  position: relative;
+  padding: 1rem;
+}
+
+.bg-use .use-border::before {
+  content: "Diluição";
+  display: block;
+  position: absolute;
+  margin-left: 35%;
+  top: 10px;
+  background-color: var(--cor-3);
+  color: var(--cor-8);
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  font: 500 2rem/1.5 "poppins", sans-serif;
+  font-weight: bolder;
+}
+
+.bg-use .use-dilution-subtitle {
+  max-width: 950px;
+  display: flex;
+  text-transform: uppercase;
+  color: var(--cor-8);
+  font: 400 1rem/1 "roboto", sans-serif;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem auto;
+}
+
+.bg-use .use-bucket-bg {
+  display: flex;
+  height: 200px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-image: url("../../img/PNG/diluicao.png");
+  background-size: cover;
+}
+
+.bg-use .use-dilution-container-details {
+  display: flex;
+  max-width: 1100px;
+  margin: auto;
+  margin-top: 3rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bg-use .use-dilution-container-details div span {
+  font: 500 1rem/1 "poppins", sans-serif;
+  color: var(--cor-10);
+  padding: 1rem;
+  font-weight: bolder;
+  margin: auto 3.5rem;
+  align-items: center;
+  background-color: var(--cor-b-1);
+  border-radius: 50%;
+}
+
+.use-dilution-liters {
+  max-width: 880px;
+  margin: 0 auto;
+  margin-top: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.use-dilution-liters p {
+  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+  border: solid 1px var(--cor-b-1);
+  border-radius: 20px;
+  font-weight: bold;
+  color: var(--cor-b-1);
+}
+
+.use-dilution-proportion {
+  max-width: 320px;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+  color: var(--cor-8);
+  font: 400 1rem/1 "roboto", sans-serif;
+  display: flex;
+  margin: 1rem auto;
+  border: solid 2px var(--cor-8);
+  border-radius: 40px;
+  padding: 0rem 2rem 0rem 2rem;
+}
+
+.use-dilution-proportion .color-pink {
+  background-color: #e23968;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.use-dilution-proportion .color-blue {
+  background-color: #00f5ff;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+@media (max-width: 1500px) {
+  .bg-use .use-border::before {
+    margin-left: 35%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .bg-use .use-dilution-container-details {
+    max-width: 900px;
+    margin-top: 0rem;
+  }
+
+  .bg-use .use-dilution-container-details div span {
+    padding: 1rem;
+    margin: auto 2rem;
+  }
+}
+
+@media (max-width: 1100px) {
+  .bg-use .use-dilution-container-details {
+    max-width: 850px;
+    margin-top: 0rem;
+  }
+
+  .bg-use .use-dilution-container-details div span {
+    padding: 1rem;
+    margin: auto 2.5rem;
+  }
+}
+
+@media (max-width: 1030px) {
+  .container-info-dilution {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .bg-use .use-mode div {
+    margin: 1.2rem auto;
+  }
+
+  .bg-use .use-mode div span::after {
+    width: 60px;
+    height: 60px;
+    margin-left: 70px;
+    top: -6px;
+  }
+}

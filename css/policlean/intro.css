@@ -1,0 +1,349 @@
+.container-intro {
+  max-width: 1200px;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: 1fr 5fr 5fr;
+  gap: 1rem;
+}
+
+.intro-colum1 {
+  grid-column: 1;
+  margin-left: 0.5rem;
+}
+
+.intro-colum1 img {
+  border: solid 2px var(--cor-7);
+  border-radius: 4px;
+  margin: 0.5rem auto;
+}
+
+.intro-colum2 {
+  margin: 0.5rem;
+  display: flex;
+  padding: 1rem;
+  border: solid 2px var(--cor-b-3);
+  border-radius: 4px;
+}
+
+.intro-colum2 .intro-product img {
+  height: 100%;
+}
+
+.intro-colum2 .intro-product p {
+  margin-left: 3rem;
+  color: var(--cor-p-3);
+}
+
+.intro-colum2 .intro-stamp {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.intro-colum3 {
+  text-align: center;
+  border: solid 2px var(--cor-b-2);
+  border-radius: 4px;
+  margin: 0.5rem auto;
+}
+
+.intro-colum3 h2 {
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.intro-colum3 .intro-stars {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.intro-colum3 .intro-rating span {
+  color: var(--cor-p-3);
+  font-weight: 400;
+}
+
+.intro-colum3 .intro-rating {
+  font-weight: bolder;
+  margin-bottom: 0.5rem;
+}
+
+.intro-colum3 .intro-price::before {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 500px;
+  background-color: var(--cor-b-2);
+  margin: auto;
+  margin-bottom: 0.5rem;
+}
+
+.intro-colum3 .intro-payment {
+  margin-bottom: 0.5rem;
+}
+
+.intro-colum3 .intro-payment span {
+  font-weight: bolder;
+}
+
+.intro-colum3 .intro-add {
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  margin: auto 1rem;
+  cursor: pointer;
+  border: solid 2px var(--cor-b-3);
+  background: none;
+  border-radius: 8px;
+}
+
+.intro-colum3 .intro-add:hover {
+  background-color: var(--cor-b-2);
+}
+
+.intro-colum3 .intro-buy {
+  text-transform: uppercase;
+  font-weight: bolder;
+  padding: 0.5rem 8rem 0.5rem 8rem;
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #00b809;
+  border: none;
+  border-radius: 8px;
+}
+
+.intro-colum3 .intro-buy:hover {
+  background-color: #00ff00;
+}
+
+.intro-colum3 .intro-security {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  color: #00b809;
+  position: relative;
+}
+
+.intro-colum3 .intro-security::before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url(../../img/icon/security.svg) no-repeat;
+  position: absolute;
+  margin-top: 1px;
+  margin-left: -20px;
+}
+
+.intro-colum3 .intro-resale {
+  text-transform: uppercase;
+  font-weight: bolder;
+  padding: 0.5rem 9.5rem 0.5rem 9.5rem;
+  cursor: pointer;
+  color: #ffffff;
+  background-color: var(--cor-7);
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+}
+
+.intro-colum3 .intro-resale:hover {
+  background-color: var(--cor-6);
+}
+
+.intro-colum3 .intro-freight {
+  margin-top: 0.5rem;
+  font-weight: bolder;
+  color: var(--cor-p-1);
+}
+
+.intro-colum3 .intro-freight::before {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 500px;
+  background-color: var(--cor-b-2);
+  margin: auto;
+  margin-bottom: 0.5rem;
+}
+
+.intro-colum3 .intro-freight::after {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url(../../img/icon/shipping.svg) no-repeat;
+  position: absolute;
+  margin-left: -220px;
+}
+.intro-colum3 .intro-calc {
+  font-weight: bolder;
+  padding: 1rem 2rem 1rem 2rem;
+  max-width: 300px;
+  cursor: pointer;  
+  color: var(--cor-p-1);
+  border: solid 2px var(--cor-b-3);
+  background: none;
+  border-radius: 8px;
+  margin: auto;
+  margin-top: 0.5rem;
+}
+
+.intro-colum3 .intro-calc {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  transition: 0.3s;
+}
+
+.intro-colum3 .intro-calcBtn {
+  text-transform: uppercase;
+  font-weight: bolder;
+  background: none;
+  border: none;
+}
+
+.intro-colum3 .intro-calc:hover {
+  background-color: var(--cor-b-2);
+}
+
+.intro-colum3 .intro-calc span {
+  font-weight: normal;
+}
+
+.intro-colum3 .intro-table div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+
+.intro-colum3 .intro-table-1 {
+  background-color: var(--cor-b-3);
+  font-weight: bolder;
+}
+
+.intro-colum3 .intro-table-2 {
+  background-color: var(--cor-b-2);
+  align-items: center;
+}
+
+.intro-colum3 .intro-table-3 {
+  background-color: var(--cor-b-3);
+  align-items: center;
+}
+
+@media (max-width: 1200px) {
+  .container-intro {
+    gap: 0rem;
+  }
+
+  .intro-colum1 {
+    height: 100% !important;
+  }
+
+  .intro-colum2 .intro-product p {
+    margin-left: 0px;
+  }
+
+  .intro-colum3 .intro-add {
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    margin: auto 1rem;
+    cursor: pointer;
+    border: solid 2px var(--cor-b-3);
+    background: none;
+    border-radius: 8px;
+  }
+
+  .intro-colum3 .intro-freight::before,
+  .intro-colum3 .intro-price::before {
+    width: 300px;
+  }
+
+  .intro-colum3 .intro-freight::after {
+    display: none;
+  }
+
+  .intro-colum3 .intro-add {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+  }
+
+  .intro-colum3 .intro-buy,
+  .intro-colum3 .intro-resale {
+    padding: 0.5rem 5rem 0.5rem 5rem;
+  }
+
+  .intro-colum3 .intro-security::before {
+    display: none;
+  }
+
+  .intro-colum3 .intro-security {
+    position: initial;
+    max-width: 50ch;
+  }
+
+  .intro-colum3 .intro-calc {
+    font-weight: bolder;
+    padding: 1rem 2rem 1rem 2rem;
+    max-width: 200px;
+  }
+}
+
+@media (max-width: 870px) {
+  .container-intro {
+    grid-template-columns: 1fr 1fr;
+  }
+  .intro-colum1 {
+    display: none;
+  }
+  .intro-colum3 .intro-buy,
+  .intro-colum3 .intro-resale {
+    padding: 0.5rem 3rem 0.5rem 3rem;
+  }
+}
+
+@media (max-width: 750px) {
+  .container-intro {
+    grid-template-columns: 1fr;
+  }
+
+  .intro-colum3 {
+    border: none;
+  }
+
+  .intro-colum2 {
+    border: none;
+    border-bottom: solid 2px var(--cor-b-2);
+  }
+
+  .container-intro {
+    border: solid 2px var(--cor-b-2);
+    margin: 1rem;
+  }
+  
+  .intro-colum3 {
+    grid-row: 2;
+  }
+
+  .intro-colum2 {
+    grid-row: 1;
+  }
+
+  .intro-colum3 .intro-freight::before,
+  .intro-colum3 .intro-price::before {
+    width: 200px;
+  }
+
+  .intro-colum3 .intro-add {
+    padding: 0.5rem;
+  }
+
+  .intro-colum3 .intro-buy,
+  .intro-colum3 .intro-resale {
+    padding: 0.5rem 2rem 0.5rem 2rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .intro-colum2 .intro-product p {
+    display: none;
+  }
+}

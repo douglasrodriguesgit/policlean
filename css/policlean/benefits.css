@@ -1,0 +1,54 @@
+.bg-benefits {
+  height: 100vh;
+  background-image: url("../../img/PNG/criancas.jpg");
+  background-size: cover;
+}
+
+.benefits-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.benefits-container .benefits-content {
+  margin-top: 8rem;
+  background: var(--cor-7);
+  padding: 3rem;
+  border-radius: 8px;
+}
+
+.benefits-container .benefits-content h3 {
+  color: var(--cor-b-1);
+  margin: 1rem 0px;
+}
+
+.benefits-container .benefits-content ul li {
+  color: var(--cor-b-2);
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  max-width: 40ch;
+  margin: 1.5rem 0px;
+  position: relative;
+}
+
+.benefits-container .benefits-content ul li::before {
+  content: "";
+  display: block;
+  width: 24px;
+  height: 24px;
+  background: url("../../img/icon/triangle.svg") no-repeat;
+  position: absolute;
+  margin-left: -2rem;
+  margin-bottom: 3px;
+}
+
+@media (max-width: 320px) {
+  .benefits-container .benefits-content {
+    margin-top: 4rem;
+    background: var(--cor-7);
+    padding: 2rem 0rem 2rem 2rem;
+    border-radius: 8px;
+  }
+}

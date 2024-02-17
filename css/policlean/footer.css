@@ -1,0 +1,128 @@
+.footer-bg {
+  background: var(--cor-7);
+}
+
+.footer-container {
+  display: grid;
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-content: center;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 1rem;
+  border-bottom: solid 0.5px var(--cor-6);
+}
+
+.footer-container h4 {
+  color: var(--cor-4);
+  font-weight: 500;
+}
+
+.footer-container nav ul li a {
+  color: var(--cor-b-1);
+}
+
+.footer-container nav ul li a:hover {
+  color: var(--cor-2);
+  font-weight: 400;
+}
+
+.policlean-oirad ul li,
+.produtos ul li,
+.contato ul li {
+  margin-top: 1rem;
+}
+
+.redes .brand {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.redes h4 {
+  color: var(--cor-b-1);
+  font-weight: 300;
+}
+
+.redes .redes-icons ul {
+  display: flex;
+  align-items: center;
+  border: solid 1px var(--cor-b-1);
+  border-radius: 2px;
+  max-width: 130px;
+  padding: 0.3rem;
+  margin-left: 0px;
+  margin-bottom: 1rem;
+}
+
+.redes .redes-icons img {
+  margin-left: 2px;
+}
+
+.footer-security {
+  background: var(--cor-7);
+  display: grid;
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.footer-security h4 {
+  color: var(--cor-4);
+  font-weight: 500;
+  margin-left: 3rem;
+}
+
+.footer-security-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+
+.copywriting {
+  background-color: var(--cor-b-1);
+}
+
+.copywriting-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.copywriting-container p {
+  text-transform: uppercase;
+  color: var(--cor-5);
+}
+
+.copywriting a {
+  color: #9c9c9c;
+  padding: 0rem 1rem 0rem 1rem;
+}
+
+@media (max-width: 700px) {
+  .footer-container {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 2rem;
+  }
+
+  .produtos,
+  .contato {
+    margin-top: 1rem;
+  }
+
+  .copywriting-container {
+    display: block;
+  }
+
+  .copywriting-container p {
+    padding: 1rem 0rem 0rem 1rem;
+  }
+}
+
+@media (max-width: 430px) {
+  .footer-container {
+    grid-template-columns: repeat(1, 1fr);
+    padding-top: .5rem;
+  }
+}

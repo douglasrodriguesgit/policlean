@@ -1,0 +1,138 @@
+.superposobra-header ul {
+  margin: 3rem auto;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.superposobra-header ul li {
+  border: solid 2px var(--cor-6);
+  border-radius: 8px;
+  max-width: 15ch;
+  padding: 1rem 1rem 0rem 1rem;
+}
+
+.superposobra-header ul li a {
+  color: var(--cor-8);
+  font-weight: 500;
+  margin: 0 auto;
+  align-items: center;
+  cursor: pointer;
+}
+
+.superposobra-header ul li:hover {
+  background-color: var(--cor-1);
+  color: var(--cor-b-1);
+  transition: 0.3s;
+}
+
+.bg-superposobra .superposobra-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.bg-superposobra .superposobra-info {
+  background-color: var(--cor-7) !important;
+  padding: 0.5rem 2rem 2rem 9.5rem;
+  height: 700px;
+}
+
+.bg-superposobra .superposobra-info h3 {
+  color: var(--cor-b-1);
+  max-width: 20ch;
+  margin: 1rem 0px;
+}
+
+.bg-superposobra .superposobra-info p {
+  color: var(--cor-b-2);
+  max-width: 50ch;
+  margin: 1rem 0px;
+}
+
+.bg-superposobra .superposobra-info span {
+  color: var(--cor-b-2);
+}
+
+.bg-superposobra .superposobra-imageBG {
+  background: url(../../img/PNG/piso.jpg) no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+.bg-superposobra .superposobra-image {
+  position: relative;
+  bottom: 80%;
+  left: 80%;
+}
+
+@media (max-width: 1300px) {
+  .bg-superposobra .superposobra-info {
+    background-color: var(--cor-6);
+    padding: 0.5rem 2rem 2rem 2rem;
+  }
+
+  .bg-superposobra .superposobra-image {
+    width: 550px;
+    height: 550px;
+  }
+}
+
+
+@media (max-width: 1180px) {
+  .bg-superposobra .superposobra-image {
+    display: none;
+  }
+
+  .bg-superposobra .superposobra-info {
+    height: auto;
+  }
+
+  .bg-superposobra .superposobra-info {
+    padding: 0.5rem 1rem 1rem 1rem;
+  }
+}
+
+@media (max-width: 940px) {
+  .superposobra-header ul li {
+    padding: 0.5rem;
+  }
+
+  .bg-superposobra .superposobra-container {
+    grid-template-columns: 1fr;
+  }
+
+  .bg-superposobra .superposobra-info {
+    padding: 2rem 8rem 2rem 8rem;
+  }
+
+  .bg-superposobra .superposobra-imageBG {
+    display: none;
+  }
+}
+
+@media (max-width: 700px) {
+  .superposobra-header ul li {
+    font-size: 0.875rem;
+  }
+
+  .superposobra-header ul {
+    margin: 1rem auto;
+  }
+
+  .bg-superposobra .superposobra-info {
+    padding: 2rem 2rem 0rem 2rem;
+  }
+}
+
+@media (max-width: 535px) {
+  .superposobra-header ul li {
+    font-size: 0.675rem;
+  }
+}
+
+@media (max-width: 435px) {
+  .superposobra-header ul li {
+    font-size: 0.5rem;
+  }
+}

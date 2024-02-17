@@ -1,0 +1,84 @@
+.cor-11 {
+  color: #12233f;
+}
+
+.cor-10 {
+  color: #1b375f;
+}
+
+.cor-9 {
+  color: #1a3f72;
+}
+
+.cor-8 {
+  color: #1b4989;
+}
+
+.cor-7 {
+  color: #004c98;
+}
+
+.cor-6 {
+  color: #2c6fbd;
+}
+
+.cor-5 {
+  color: #5594db;
+}
+.cor-4 {
+  color: #90b8e9;
+}
+
+.cor-3 {
+  color: #83bdd6;
+}
+.cor-2 {
+  color: #e4ecfa;
+}
+.cor-1 {
+  color: #f2f6fd;
+}
+
+.cor-p-1 {
+  color: #000000;
+}
+
+.cor-p-2 {
+  color: #717171;
+}
+
+.cor-p-3 {
+  color: #b2b2b2;
+}
+
+.cor-b-1 {
+  color: #ffffff;
+}
+
+.cor-b-2 {
+  color: #f7f7f7;
+}
+
+.cor-b-3 {
+  color: #ededed;
+}
+
+:root {
+  --cor-11: #12233f;
+  --cor-10: #1b375f;
+  --cor-9: #1a3f72;
+  --cor-8: #1b4989;
+  --cor-7: #004c98;
+  --cor-6: #2c6fbd;
+  --cor-5: #5594db;
+  --cor-4: #90b8e9;
+  --cor-3: #83bdd6;
+  --cor-2: #e4ecfa;
+  --cor-1: #f2f6fd;
+  --cor-p-1: #000000;
+  --cor-p-2: #717171;
+  --cor-p-3: #b2b2b2;
+  --cor-b-1: #ffffff;
+  --cor-b-2: #f7f7f7;
+  --cor-b-3: #ededed;
+}

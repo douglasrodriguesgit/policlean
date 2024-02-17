@@ -1,0 +1,37 @@
+html,
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+span,
+header,
+a,
+nav,
+footer,
+button,
+textarea {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  transition: 0.3s;
+}
+
+img {
+  max-height: 100%;
+  max-width: 100%;
+  display: block;
+  object-fit: cover;
+}

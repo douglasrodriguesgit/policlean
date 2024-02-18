@@ -11,10 +11,23 @@
   margin-left: 0.5rem;
 }
 
-.intro-colum1 img {
+.intro-colum1-img img {
   border: solid 2px var(--cor-7);
   border-radius: 4px;
   margin: 0.5rem auto;
+  cursor: pointer;
+}
+
+.intro-colum1-btns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.intro-colum1-btns button {
+  border: none;
+  background-color: var(--cor-b-1);
+  cursor: pointer;
 }
 
 .intro-colum2 {
@@ -56,11 +69,13 @@
   justify-content: center;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
+  cursor: pointer;
 }
 
 .intro-colum3 .intro-rating span {
   color: var(--cor-p-3);
   font-weight: 400;
+  cursor: pointer;
 }
 
 .intro-colum3 .intro-rating {
@@ -126,7 +141,7 @@
   display: inline-block;
   width: 16px;
   height: 16px;
-  background: url(../../img/icon/security.svg) no-repeat;
+  background: url('../../img/icon/security.svg') no-repeat;
   position: absolute;
   margin-top: 1px;
   margin-left: -20px;
@@ -169,7 +184,7 @@
   display: inline-block;
   width: 16px;
   height: 16px;
-  background: url(../../img/icon/shipping.svg) no-repeat;
+  background: url('../../img/icon/shipping.svg') no-repeat;
   position: absolute;
   margin-left: -220px;
 }
@@ -177,7 +192,7 @@
   font-weight: bolder;
   padding: 1rem 2rem 1rem 2rem;
   max-width: 300px;
-  cursor: pointer;  
+  cursor: pointer;
   color: var(--cor-p-1);
   border: solid 2px var(--cor-b-3);
   background: none;
@@ -318,7 +333,7 @@
     border: solid 2px var(--cor-b-2);
     margin: 1rem;
   }
-  
+
   .intro-colum3 {
     grid-row: 2;
   }

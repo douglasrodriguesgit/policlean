@@ -56,6 +56,16 @@
   grid-column: 1;
 }
 
+.description-glove-container .description-glove-image {
+  content: "";
+  background-color: var(--cor-3);
+  border: solid 1px var(--cor-7);
+  border-radius: 50%;
+  max-width: 450px;
+  max-height: 450px;
+  display: block;
+}
+
 .description-glove-container .description-glove-precaution {
   grid-column: 2;
 }

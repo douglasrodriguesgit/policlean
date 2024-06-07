@@ -4,7 +4,7 @@ Projeto página de produto.
 
 ## Introdução
 Projeto realizado com o objetivo de replicar a página do produto Super Pós Obra da empresa Policlean. O produto Super Pós Obra é Indicado para limpeza pesada das sujidades do pós-obra.
-A página se encontra completamente resposiva.
+A página se encontra completamente responsiva.
 
 ### Tecnologias usadas:
 
